@@ -20,6 +20,5 @@ while (num1 <= 100)
     Console.Write("数値を入力してください:");
     int Enter = Convert .ToInt32(Console.ReadLine());
     num1 = num1 + Enter;
-    continue;
 }
 Console.WriteLine($"合計値は{num1}です");
